@@ -375,7 +375,7 @@ class AskFileMessage(AskMessageBase):
         self,
         content: str,
         accept: Union[List[str], Dict[str, List[str]]],
-        max_size_mb=2,
+        max_size_mb=100,
         max_files=1,
         author=config.ui.name,
         timeout=90,
